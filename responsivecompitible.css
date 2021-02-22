@@ -1,0 +1,307 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        height:5rem;
+    }
+    .social_icons{
+        margin: 0rem;
+        display: block;
+        text-align: center;
+    }
+    .searchbar{
+        margin:.6rem auto;
+        width: 100%;
+    }
+    .searchbar input{         
+        height: 2rem;
+    }
+    .searchbar button {
+        height: 2rem;
+    }
+    .section5_image img{
+        width: 100%;
+    }
+    .section5_description button{
+       margin-bottom:0.3rem;
+    }
+    .section6{
+        height: 70rem;
+    }
+    .section7{
+        height: 28rem;
+    }
+    
+}
+@media only screen and (max-width: 485px) {
+    nav{
+        height: 4rem;
+    }
+}
+@media only screen and (max-width: 465px) {
+    .section7 textarea{
+        width:15rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .section6{
+        height: 83rem;     
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header{
+        height:5rem;
+    }
+    .social_icons{
+        margin: 0rem;
+        display: block;
+        text-align: center;
+    }
+    .searchbar{
+        margin:.6rem auto;
+        width: 100%; 
+        
+    }
+    .searchbar input{         
+        height: 2rem;
+    }
+    .searchbar button {
+        height: 2rem;
+    }
+    .section5_image img{
+        width: 100%;
+    }
+    .section5_description button{
+       margin-bottom:0.3rem;
+    }
+    .section6{
+        height: 70rem;
+    }
+    .section7{
+        height: 28rem;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .social_icons{
+        margin:1.2rem 2rem;
+        display: inline-block;
+    }
+    .searchbar{
+        margin:1.3rem 2rem;
+        width: 15rem;
+        float: right;  
+    }
+    .section6{
+        height: 45rem;       
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section6{
+        height: 35rem;       
+    }
+    .section6_elements{
+        padding: 3.5rem 3rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* section 1 header */
+    header{
+        height:4rem;
+        background: #a88c95;
+    }
+    .social_icons{
+        margin:1rem 5rem;
+        display: inline-block;
+    }
+    .social_icons i{
+        padding: 0.3rem;
+        background: #d2d2d2 ;
+        color: #6a3144 ;
+        border-radius: 50%;
+        font-size: 0.8rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .social_icons i:hover{
+        background: #ee802f;
+    }
+    .searchbar{
+        margin:1rem 5rem;
+        width: 15rem;
+        float: right;  
+    }
+    .searchbar input{
+        height:1.5rem;
+        
+    }
+    .searchbar input::-webkit-input-placeholder{
+        font-size: 0.7rem;
+    }
+    .searchbar input::-moz-placeholder{
+        font-size: 0.7rem;
+    }
+    .searchbar input:-ms-input-placeholder{
+        font-size: 0.7rem;
+    }
+    .searchbar input::-ms-input-placeholder{
+        font-size: 0.7rem;
+    }
+    .searchbar input::placeholder{
+        font-size: 0.7rem;
+    }
+    .searchbar button{
+        height:1.5rem;
+        background: #97455f;
+        color: #fff;
+        font-size: 0.7rem;
+    }
+    /* section 2  */
+    .section2{
+        height: 5rem;
+        
+    }
+    .section2_elements{
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .section2 h2{    
+        display: inline-block;
+    }
+    /* section 3 nav  */
+    nav{
+        background: #97455f;
+        height: 2rem;
+        text-align: center;
+    }
+    .section3 ul li{
+        padding:0.2rem;
+        display: inline-block;
+        
+    }
+    .section3 a{
+        font-size: 0.6rem;
+        color:#fff;
+        text-decoration: none;
+    }
+    .section3 ul li:hover{
+        background: #6a3144;
+    }
+    /* section 4 */
+    .section4 img{
+        height:25rem;
+        width: 100%;
+    }
+    /* section 5 */
+    .section5{
+        font-size: 0.8rem;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin:3rem 0 2rem 0;
+    }
+    .section5_image img{
+        height: 15rem;
+        width: 25rem;
+    }
+    .section5_description button{
+        padding: 0.5rem 0.9rem;
+        background: #6a3144;
+        color: #fff;
+        border: none;
+    }
+    /* section 6 */
+    .section6{
+        height: 35rem;
+        background: #f5f5f5;
+        
+    }
+    .heading_section6{
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .heading_section6 p{
+        font-size: 0.7rem;
+    }
+    .heading_section6 h3{
+        color: #6a3144;
+    }
+    .row{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        font-size: 0.6rem;
+    }
+    .row h5{
+        color: #6a3144;
+    }
+    .section6_elements{
+        padding: 2.5rem 3.5rem;
+    }
+    .section6_elements:hover{
+        background: #ffff;
+    }
+    /* section 7 */
+    .section7{
+        height: 22rem;
+        background: url("images/WebSite3.jpg") no-repeat;
+        background-size: cover;
+    }
+    .section7 h3{
+        text-align: center;
+        color: #fff;
+        padding: 2rem;
+    }
+    .section7 input{
+        width: 15rem;
+        height: 1.7rem;
+        margin: 0.2rem;
+    }
+    .section7 textarea{
+        width:30.4rem;
+        margin:0.2rem;
+    }
+    .section7 form{
+        text-align: center;
+    }
+    form button {
+        height: 2rem;
+        width: 9rem;
+        margin-top: 1rem;
+        background: #97455f;
+        color: #fff;
+        border: none;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        font-size: 0.8rem;
+    }
+    /* section 7 */
+    footer img{
+        margin:1rem 0;
+    }
+    footer p{
+        color:#6a3144;
+        font-size: .8rem;
+    }
+    
+}
